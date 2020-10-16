@@ -1,0 +1,4 @@
+      
+steps:
+- name: 'gcr.io/cloud-builders/gcloud'
+    args: ['gcloud', 'deployment-manager', 'deployments', 'create', 'quickstart-deployment', '--config', 'service_account.yaml' ]
